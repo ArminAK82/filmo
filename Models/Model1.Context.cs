@@ -27,4 +27,8 @@ namespace filmo.Models
     
         public virtual DbSet<tbl_filmo> tbl_filmo { get; set; }
     }
+
+    public class tbl_filmo
+    {
+    }
 }
