@@ -12,9 +12,10 @@ namespace filmo.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class C_filmoDB
+    public partial class tbl_filmo
     {
         public int pkID { get; set; }
+        public string Titr { get; set; }
         public string TextValue { get; set; }
     }
 }

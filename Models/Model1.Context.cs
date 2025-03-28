@@ -13,10 +13,10 @@ namespace filmo.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Filmo_DB : DbContext
+    public partial class Filmo_DBE : DbContext
     {
-        public Filmo_DB()
-            : base("name=Filmo_DB")
+        public Filmo_DBE()
+            : base("name=Filmo_DBE")
         {
         }
     
@@ -25,10 +25,7 @@ namespace filmo.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<tbl_filmo> tbl_filmo { get; set; }
-    }
-
-    public class tbl_filmo
-    {
     }
 }
