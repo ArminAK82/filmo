@@ -1,8 +1,225 @@
 ﻿
 @{
-    
+
     Layout = "~/Views/Layouts/_LayoutB.cshtml";
 }
 
-<h2>Index111111111111111111111111111111111111111111111111111111111111111111111111111111111</h2>
+<main class="container mx-auto py-8 px-4">
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">فیلم‌های برتر</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم برتر ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم برتر ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۹.۸/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
 
+    <!-- خفن‌ترین‌ها -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">خفن‌ترین‌ها</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم خفن ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم خفن ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۹.۵/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- تازه‌ها -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">تازه‌ها</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم جدید ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم جدید ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۸.۸/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- داغ‌ترین‌ها -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">داغ‌ترین‌ها</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم داغ ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم داغ ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۹.۲/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- محبوب‌ترین‌ها -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">محبوب‌ترین‌ها</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم محبوب ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم محبوب ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۹.۷/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- سریال‌های ایرانی -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">سریال‌های ایرانی</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="سریال ایرانی ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان سریال ایرانی ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره سریال</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۸.۹/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- درام -->
+    <section class="mb-10">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-white-800">درام</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-[#1A1A1A] rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x450"
+                         alt="فیلم درام ۱"
+                         class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">عنوان فیلم درام ۱</h3>
+                        <p class="text-gray-600">توضیحات کوتاه درباره فیلم</p>
+                        <div class="mt-4 flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span>۸.۷/۱۰</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- تکرار کارت‌های مشابه برای این بخش -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-[#1A1A1A] p-4 rounded-lg shadow-md">
+            <i class="fas fa-film text-blue-600 text-3xl mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">بهترین کیفیت</h3>
+            <p class="text-gray-600">تماشای فیلم‌ها با بالاترین کیفیت ممکن</p>
+        </div>
+        <div class="bg-[#1A1A1A] p-4 rounded-lg shadow-md">
+            <i class="fas fa-globe text-blue-600 text-3xl mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">فیلم‌های جهانی</h3>
+            <p class="text-gray-600">دسترسی به فیلم‌های روز دنیا</p>
+        </div>
+        <div class="bg-[#1A1A1A] p-4 rounded-lg shadow-md">
+            <i class="fas fa-mobile-alt text-blue-600 text-3xl mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">تماشا در همه دستگاه‌ها</h3>
+            <p class="text-gray-600">قابل استفاده در موبایل، تبلت و کامپیوتر</p>
+        </div>
+        <div class="bg-[#1A1A1A] p-4 rounded-lg shadow-md">
+            <i class="fas fa-headset text-blue-600 text-3xl mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">پشتیبانی ۲۴ ساعته</h3>
+            <p class="text-gray-600">همیشه آماده کمک به شما هستیم</p>
+        </div>
+    </section>
+</main>
