@@ -16,7 +16,7 @@ namespace filmo.Controllers
         public ActionResult Index()
         {
             var res = tbl_value.tbl_filmo.ToList();
-            ViewBag.titel = res.Where(x=>x.Titr=="Titel").Select(x => new {x.TextValue }).SingleOrDefault();
+            ViewBag.titel = res.Where(x=>x.Titr=="Titel").Select(x => new {x.TextValue}).SingleOrDefault();
             return View();
         }
        
